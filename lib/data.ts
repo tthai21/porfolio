@@ -62,24 +62,40 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Movies App",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+      "This website provides users with the ability to create accounts and save their favorite movies and TV shows.",
+    tags: [
+      "React",
+      "Typescript",
+      "React router",
+      "Redux-toolkit",
+      "Dotnet API",
+      "Tailwind",
+      "SQL",
+    ],
     imageUrl: moviesapp,
   },
   {
-    title: "rmtDev",
+    title: "Employees Management",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
+      "This project is a user registration and login system, Admin users will have full access to employee data, including viewing, updating, and deleting records. ",
+    tags: [
+      "React",
+      "TypeScript",
+      "React router",
+      "Redux-toolkit",
+      "Dotnet API",
+      "Tailwind",
+      "Redux",
+    ],
     imageUrl: employeesapp,
   },
   {
-    title: "Word Analytics",
+    title: "Card Match Game",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
+      "The objective of this project is to create an engaging card-matching game which involve a deck of 52 playing cards, where players need to find and match pairs of cards. ",
+    tags: ["React", "Typescript"],
     imageUrl: cardsmatchinggame,
   },
 ] as const;
