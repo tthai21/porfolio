@@ -42,7 +42,7 @@ export default function Skills() {
             key={index}
           >
             {skill}
-          </motion.li>
+          </motion.li>          
         ))}
       </ul>
     </section>
