@@ -72,7 +72,7 @@ export default function Intro() {
         }}
       >
         <Link
-          href="#contact"
+          href="mailto:trongducthai@gmail.com"
           className="bg-gray-900 text-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition"
         >
           Contact me here <BsArrowRight />
