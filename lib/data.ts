@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Certificate 4 in Web development",
+    location: "Holmesglen Institute, Melbourne, Australia",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
+      "I graduated after 6 months of studying. I immediately enrolled for Diploma of IT",
     icon: React.createElement(LuGraduationCap),
-    date: "2019",
+    date: "2022",
   },
   {
-    title: "Front-End Developer",
-    location: "Orlando, FL",
+    title: "Diploma of Information Technology(Web development)",
+    location: "Monarch Institute, Melbourne",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "I upskilled to the full stack developer when studying at Monarch Institute.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Junior Developer",
+    location: "Rotageek -Melbourne",
     description:
       "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - present",
   },
 ] as const;
 
@@ -80,15 +80,7 @@ export const projectsData = [
     title: "Employees Management",
     description:
       "This project is a user registration and login system, Admin users will have full access to employee data, including viewing, updating, and deleting records. ",
-    tags: [
-      "React",
-      "TypeScript",
-      "React router",
-      "Redux-toolkit",
-      "Dotnet API",
-      "Tailwind",
-      "Redux",
-    ],
+    tags: ["React", "TypeScript", "Redux-toolkit", "Dotnet API", "Tailwind"],
     imageUrl: employeesapp,
   },
   {
@@ -110,14 +102,12 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "SQL",
   "MongoDB",
   "Redux",
   "GraphQL",
-  "Apollo",
   "Express",
   "PostgreSQL",
-  "Python",
-  "Django",
-  "Framer Motion",
+  "C#",
+  ".Net",
 ] as const;
