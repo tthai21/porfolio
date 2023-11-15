@@ -3,7 +3,7 @@ import SectionHeading from "./section-heading";
 
 export default function Contact() {
   return (
-    <section id="contact">
+    <section id="contact" className="mb-20">
       <SectionHeading title="Contact me"></SectionHeading>
       <p>
         Please contact me directly at{" "}

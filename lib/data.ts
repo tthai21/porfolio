@@ -37,24 +37,21 @@ export const experiencesData = [
   {
     title: "Certificate 4 in Web development",
     location: "Holmesglen Institute, Melbourne, Australia",
-    description:
-      "I graduated after 6 months of studying. I immediately enrolled for Diploma of IT",
+    description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2022",
   },
   {
     title: "Diploma of Information Technology(Web development)",
     location: "Monarch Institute, Melbourne",
-    description:
-      "I upskilled to the full stack developer when studying at Monarch Institute.",
+    description: "",
     icon: React.createElement(LuGraduationCap),
     date: "2023",
   },
   {
     title: "Junior Developer",
     location: "Rotageek -Melbourne",
-    description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
+    description: "",
     icon: React.createElement(CgWorkAlt),
     date: "2023 - present",
   },
