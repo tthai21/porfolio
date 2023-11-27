@@ -72,6 +72,7 @@ export const projectsData = [
       "SQL",
     ],
     imageUrl: moviesapp,
+    url: "https://movie-app-typescript-tau.vercel.app",
   },
   {
     title: "Employees Management",
@@ -79,6 +80,7 @@ export const projectsData = [
       "This project is a user registration and login system, Admin users will have full access to employee data, including viewing, updating, and deleting records. ",
     tags: ["React", "TypeScript", "Redux-toolkit", "Dotnet API", "Tailwind"],
     imageUrl: employeesapp,
+    url: "https://emanagement-ivory.vercel.app/",
   },
   {
     title: "Card Match Game",
@@ -86,6 +88,7 @@ export const projectsData = [
       "The objective of this project is to create an engaging card-matching game which involve a deck of 52 playing cards, where players need to find and match pairs of cards. ",
     tags: ["React", "Typescript"],
     imageUrl: cardsmatchinggame,
+    url: "https://card-match-game-plum.vercel.app",
   },
 ] as const;
 
